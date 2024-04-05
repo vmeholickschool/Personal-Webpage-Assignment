@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicki Meholick Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS to display images side by side with space */
+        .image-container {
+            display: flex;
+            /* Use flexbox */
+            justify-content: space-between;
+            /* Distribute space between images */
+            margin: 20px 0;
+            /* Add margin above and below the image container */
+        }
+
+        .image-container img {
+            max-width: calc(15% - 10px);
+            /* Set max-width for each image */
+            height: auto;
+            /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>My home</h1>
+        <p>I am a homebody. I bought my first house in 2021 in St. Clair Shores, Michigan where I love it a lot. It is a
+            great city and I live right across the street from Lake St. Clair with some lovely views.</p>
+    </section>
+
+    <section>
+        <h2>About St. Clair Shores, MI</h2>
+        <p>St. Clair Shores is a city in Macomb County, Michigan. It is a suburb of Detroit.</p>
+
+        <!-- Embed Google Maps -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959.680903236294!2d-82.88849098426903!3d42.50233497918074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824e5a4c347d72f%3A0x6964b30114655f5c!2sSt%20Clair%20Shores%2C%20MI%2048082%2C%20USA!5e0!3m2!1sen!2suk!4v1649301937697!5m2!1sen!2suk" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>My passions</h2>
+        <p>When I am not working or attending bootcamp, I enjoy spending time around the house working on home
+            improvements
+            and caring for my 4 dogs and 2 cats and playing pinball on my Arcade 1up machine. I also usually have a
+            foster dog in the house as I spend a lot of time
+            volunteering for animal rescue groups advocating for animal rights and finding abandoned dogs their
+            forever
+            homes. Animal Rescue has been my greatest passion for the past 6 years. My favorite Musician is Chris
+            Cornell, I love Tattoos and I love going to concerts.</p>
+        <div class="image-container">
+            <img src="images/Kiss.jpg" alt="My most recent concert, Kiss">
+            <img src="images/Dogs.jpg" alt="Three of my dogs">
+        </div>
+    </section>
+
+    <section>
+        <h3>My future goals</h3>
+        <p>I would love to do some international travel to Europe. Greece and Italy are bucket list places. I would
+            like
+            to
+            continue to grow my skills in technology and I am planning on continuing to foster dogs and cats but
+            mostly
+            senior animals as they do not belong in a shelter.</p>
+        <div class="image-container">
+            <img src="images/Greece.jpg" alt="My dream vacation, Greece">
+            <img src="images/Molly.jpg" alt="My foster failure dog, Molly">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vicki Meholick</p>
+    </footer>
+</body>
+</html>
